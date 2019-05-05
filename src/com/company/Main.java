@@ -36,7 +36,7 @@ public class Main {
                System.out.println("Bravo!!");
                break;
             }else if (guess!=randNum){
-               System.out.println("Do you wanna try again? (y/n): ");
+               System.out.println("That is your incorrect. Do you wanna play again?(y/n): ");
                String ans = input.next();
                 if (ans.equalsIgnoreCase("n")){
                     break;
